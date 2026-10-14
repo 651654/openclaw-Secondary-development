@@ -1,0 +1,22 @@
+﻿[
+    {
+        "path":  "gateway-start.ps1",
+        "sha256":  "87669a9213befec73317852f4a17d271f9ce588dc02e2098154604cb3653446e",
+        "bytes":  4978
+    },
+    {
+        "path":  "gateway-stop.ps1",
+        "sha256":  "7c5aed59ad9e3ce8215f147e5deab9a6a0a455676f93f569dd02cabd0f3fc692",
+        "bytes":  1992
+    },
+    {
+        "path":  "scripts/windows-prefer-ipv4.ps1",
+        "sha256":  "3a301c809c1ba6b6d764001289fdcd9e93d17b7ba0235dfc8e90532adacb54ea",
+        "bytes":  627
+    },
+    {
+        "path":  "scripts/windows-tun-ipv6.ps1",
+        "sha256":  "f5cdb379352e2765948b521cdb79603bac1148afb8210ae5c0a15fdd4bcdbe92",
+        "bytes":  4008
+    }
+]

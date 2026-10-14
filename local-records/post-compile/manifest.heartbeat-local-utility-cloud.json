@@ -1,0 +1,40 @@
+﻿{
+    "recordedAt":  "2026-09-27T21:58:12.3667493+08:00",
+    "purpose":  "post-compile record for heartbeat-local + utilityModel-cloud",
+    "preCompileCommit":  "5a82d63f40d1ef97e04fb5e5705bcf2eec810250",
+    "buildStamp":  {
+
+                   },
+    "files":  [
+                  {
+                      "path":  "src/agents/session-activity-notes.ts",
+                      "bytes":  11728,
+                      "sha256":  "DD03CC41611C5BA2CAAFEAE67FEF230FA2038FE924C4C660FB0D8BE82654A064"
+                  },
+                  {
+                      "path":  "src/auto-reply/reply/progress-narrator-model.ts",
+                      "bytes":  3761,
+                      "sha256":  "1A4751C7B15F57E18B048DE448D24B166004D75041BC968BAF656689D16C3085"
+                  },
+                  {
+                      "path":  "src/gateway/session-activity-summaries.ts",
+                      "bytes":  24592,
+                      "sha256":  "25C281233DEA9EA3B034FB258F23CEFD73E472FC236B9BF054A0E9E73056DD40"
+                  },
+                  {
+                      "path":  "src/gateway/session-activity-summary-source.ts",
+                      "bytes":  4317,
+                      "sha256":  "1B7DD7FB45F2888ECAD766841D200030A114FC72116557D56652CA52353DCA01"
+                  },
+                  {
+                      "path":  "src/agents/utility-model-setting.ts",
+                      "bytes":  765,
+                      "sha256":  "909DF8A0852F3BD64366C9D8DC04EFC9E3679FEF56D05E58928CB3AF2936A79F"
+                  },
+                  {
+                      "path":  "src/infra/heartbeat-runner-config.ts",
+                      "bytes":  4615,
+                      "sha256":  "B56CAB72C817A0D9D185397D01C4A8E60363FA90A4397BAFFD8D8C5FF16B21BA"
+                  }
+              ]
+}

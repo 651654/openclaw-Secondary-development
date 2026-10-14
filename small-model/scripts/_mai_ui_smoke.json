@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "ckpt": "D:\\openclaw-main\\small-model\\mai-ui-2b",
+  "device": "cpu",
+  "dtype": "float32",
+  "cuda_available": false,
+  "image": "D:\\openclaw-main\\small-model\\scripts\\_mai_ui_demo.png",
+  "prompt": "You are a GUI agent. Look at the screenshot and answer briefly: what is the red circular icon on the right of the Inbox row? Reply with one short sentence.",
+  "text": "@",
+  "max_new_tokens": 48,
+  "timing_s": {
+    "processor": 0.741,
+    "load": 17.149,
+    "prep": 0.445,
+    "generate": 52.769,
+    "total": 71.107
+  },
+  "weight_bytes": 4255140280
+}

@@ -1,0 +1,31 @@
+﻿{
+    "startedAt":  "2026-09-27T13:31:15.2859540Z",
+    "finishedAt":  "2026-09-27T13:49:51.9052952Z",
+    "ok":  true,
+    "runner":  "D:\\node24\\node-v24.19.0-win-x64\\pnpm.cmd",
+    "exitCode":  0,
+    "notes":  "Full pnpm build after heartbeat-local + utilityModel-cloud pre-compile snapshot. Operator config remains outside the repo.",
+    "operatorConfigVerified":  {
+                                   "heartbeatModel":  "llama-cpp/qwen25-7b-q4",
+                                   "utilityModel":  "deepseek/deepseek-v4-flash",
+                                   "primaryModel":  "deepseek/deepseek-v4-pro",
+                                   "llamaIdleStopMs":  60000
+                               },
+    "checks":  [
+                   {
+                       "detail":  "exitCode=0",
+                       "ok":  true,
+                       "name":  "pnpm build"
+                   },
+                   {
+                       "detail":  "exists=True",
+                       "ok":  true,
+                       "name":  "dist/index.js"
+                   },
+                   {
+                       "detail":  "hb=llama-cpp/qwen25-7b-q4; util=deepseek/deepseek-v4-flash",
+                       "ok":  true,
+                       "name":  "operator heartbeat/utility split"
+                   }
+               ]
+}

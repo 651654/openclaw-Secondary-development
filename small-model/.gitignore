@@ -1,0 +1,39 @@
+# Local weights and heavy artifacts (do not commit)
+mai-ui-2b/
+mai-ui-8b/
+omnijev-0.8b/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Python envs
+.venv*/
+venv*/
+
+# Nested upstream clone metadata / caches / media blobs
+mai-ui-harness/.git/
+mai-ui-harness/**/.cache/
+mai-ui-harness/**/assets/
+mai-ui-harness/**/*.pdf
+mai-ui-harness/**/*.gif
+mai-ui-harness/**/*.mp4
+mai-ui-harness/MAI-UI/evaluation/grounding/data/
+mai-ui-harness/MAI-UI/evaluation/grounding/output_*/
+**/.cache/
+**/__pycache__/
+*.pyc
+
+# Runtime / download logs
+qwen-ui-agent/*.log
+qwen-ui-agent/DOWNLOAD-COMPLETE.txt
+scripts/_*.json
+scripts/_*.txt
+!scripts/_mai_ui_smoke.json
+!scripts/_mai_ui_demo.png
+
+# Optional local llama.cpp build trees
+llama-cpp/build/
+llama-cpp/*.exe

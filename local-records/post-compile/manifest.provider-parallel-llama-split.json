@@ -1,0 +1,71 @@
+﻿{
+    "recordedAt":  "2026-09-26T09:47:54.1485457+08:00",
+    "purpose":  "post-compile after provider-parallel + llama.cpp split checks",
+    "files":  [
+                  {
+                      "path":  "src/agents/prepared-model-runtime.catalog-access.ts",
+                      "bytes":  29975,
+                      "sha256":  "34E749C18867A71A7C21DE87C7595086DA2D23F3FBD503C12FD34318968A6311"
+                  },
+                  {
+                      "path":  "src/agents/prepared-model-catalog-worker.ts",
+                      "bytes":  29397,
+                      "sha256":  "43E80B22FB3297BCDC2847A6123D130C338A743D9438DC0DAEA794970B8068A0"
+                  },
+                  {
+                      "path":  "src/agents/prepared-model-runtime.owner-selection.test.ts",
+                      "bytes":  37074,
+                      "sha256":  "FBFBB2E73961A45B8AEC6ACADC4E1278EA9929CF82AA788B97E375473E9A7E4A"
+                  },
+                  {
+                      "path":  "src/agents/provider-local-service-target.ts",
+                      "bytes":  4303,
+                      "sha256":  "E6E7758C947731E20171FF4A8F64D0C52F7D88958548361B74E4C95DC004D37C"
+                  },
+                  {
+                      "path":  "src/config/zod-schema.core.ts",
+                      "bytes":  38587,
+                      "sha256":  "FFAE943F000BA81D8B85F693C181292832247E0DC1F26531B1BB2E3665F88856"
+                  },
+                  {
+                      "path":  "src/plugins/openai-compatible-embedding-provider.ts",
+                      "bytes":  18829,
+                      "sha256":  "A2B589FA81C73CDEE2B0D6438942992D294542DFB69DE0B8B1CF5CA811C5BCA5"
+                  },
+                  {
+                      "path":  "extensions/llama-cpp/src/managed-server.ts",
+                      "bytes":  23803,
+                      "sha256":  "D569EBA694DEAFC562260D0EE0E391DA1B4F1136BBB45A89F45FF16F5272F9D9"
+                  },
+                  {
+                      "path":  "extensions/llama-cpp/src/managed-server.test.ts",
+                      "bytes":  36835,
+                      "sha256":  "903A38E37DDFC03EF3C731A366CD07586590F4FCBF8A58DA36ADDAC8F3BDE414"
+                  },
+                  {
+                      "path":  "extensions/llama-cpp/src/llama-server-preset.ts",
+                      "bytes":  6428,
+                      "sha256":  "C0D91AEDA5BCB6715AB5AA5B6E457D202091439778106E75F0B7B525908A0D79"
+                  },
+                  {
+                      "path":  "extensions/llama-cpp/src/llama-server-assets.ts",
+                      "bytes":  8139,
+                      "sha256":  "9E1D5607480A47AD88FBA1D128FA99E293E4C379FEC43B8BB08BB5D26E9F1E63"
+                  },
+                  {
+                      "path":  "extensions/llama-cpp/src/defaults.ts",
+                      "bytes":  7155,
+                      "sha256":  "8F42AF868D7B08AD53EFFA65A9E07CE81D6BDA18CB6DA401C7703BEE80BD8180"
+                  },
+                  {
+                      "path":  "extensions/llama-cpp/src/setup.ts",
+                      "bytes":  19087,
+                      "sha256":  "0BBAC66981432A7D6ABA592D3A0E32F7C0BC32D1052469EE23C67BDF05E866FE"
+                  },
+                  {
+                      "path":  "extensions/llama-cpp/src/embedding-provider.ts",
+                      "bytes":  8305,
+                      "sha256":  "8E6333E825903B1B8C37F7FDEBC4D6D64FB0A8D89F3BEA8ABF77626D44599A3C"
+                  }
+              ]
+}

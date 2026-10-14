@@ -1,0 +1,28 @@
+﻿{
+    "startedAt":  "2026-09-26T01:43:32.877Z",
+    "finishedAt":  "2026-09-26T09:47:54.5153372+08:00",
+    "ok":  true,
+    "notes":  "Targeted checks: llama-cpp managed-server 36/36 pass; owner-selection parallel catalog assertion pass. One unrelated Windows path equality failure remains in finds-the-configured-gateway-owner (D:\\tmp vs /tmp).",
+    "checks":  [
+                   {
+                       "name":  "extensions/llama-cpp/src/managed-server.test.ts",
+                       "ok":  true,
+                       "detail":  "36 passed"
+                   },
+                   {
+                       "name":  "src/agents/prepared-model-runtime.owner-selection.test.ts#parallel-catalogs",
+                       "ok":  true,
+                       "detail":  "allows parallel on-demand full catalogs across prepared owners"
+                   },
+                   {
+                       "name":  "src/agents/prepared-model-runtime.owner-selection.test.ts#fullCatalogConcurrencyLimit",
+                       "ok":  true,
+                       "detail":  "updated expect 4"
+                   },
+                   {
+                       "name":  "owner-selection gateway launch workspace path",
+                       "ok":  false,
+                       "detail":  "unrelated win32 /tmp vs D:\\tmp; not part of this change"
+                   }
+               ]
+}
